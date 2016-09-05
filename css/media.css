@@ -1,0 +1,656 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:980px){
+.inner {
+    width: 95%;
+    margin: 0 auto;
+}
+.Services1-bg .Services1-pic ul {
+    width: 95%;
+    margin: 0 auto;
+}
+.Services1-bg .Services1-pic ul li {
+    
+    width: 18%;
+    height: 27%;
+    padding: 0 2%;
+/*  float: left;  text-align: center;
+    margin: 0 10px;*/
+}
+
+/*services的内容1*/
+.Services1-bg .Services1-pic .pic-box {
+    width: 100%;
+    height: 100%;
+/*    border-radius: 50%;
+    border: 20px solid rgba(255,255,255,0.5);
+    background: url(../images/service1.jpg) no-repeat -20px -20px;
+    transition: all 0.5s;
+    position: relative;*/
+}
+.Services1-bg .Services1-pic .pic-box .box-in {
+    width: 100%;
+    height: 100%;
+/*    border-radius: 50%;
+    background: url(../images/bg.jpg) no-repeat 0px 0px;*/
+}
+.Services1-bg .Services1-pic .pic-box .box-in .box-text {
+    width: 100%;
+    height: 100%;
+/*    border-radius: 50%;
+    background-color: rgba(0,102,153,0.8);
+    position: absolute;
+    display: none;
+    transition: all 1s;*/
+}
+.Services1-bg .Services1-pic .pic-box .box-in img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box:hover .box-text {
+	display: block;
+	animation: donghua2 1s normal;
+}
+
+.Services1-bg .Services1-pic .pic-box .box-in .box-text p {
+/*    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;*/
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+/*services的内容2*/
+.Services1-bg {
+    width: 100%;
+    height: 850px;
+}
+.Services1-bg .Services1-pic .pic-box2 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box2:hover .box-text2 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 p {
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*services的内容3*/
+.Services1-bg {
+    width: 100%;
+    height: 700px;
+}
+
+
+.Services1-bg .Services1-pic .pic-box3 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box3:hover .box-text3 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 p {
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 h3 {
+    font-size: 20px;
+    
+    text-align: center;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 0 5px;
+	padding-top: 50px;
+}
+
+
+/*services的内容4*/
+.Services1-bg .Services1-pic .pic-box4 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 {
+    width: 100%;
+    height: 100%;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box4:hover .box-text4 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 p {
+    line-height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.Portfolio1-bg {
+    width: 100%;
+    height: 800px;
+}
+
+.Portfolio2-bg .inner {
+    width: 95%;
+    margin: 0 auto;
+}
+.Portfolio2-bg .inner ul li {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+.Portfolio2-bg .inner ul li .box-inner {
+    height: 214px;
+    width: 100%;
+}
+
+
+.Contact3-bg .inner ul li .fa-icon i {
+    font-size: 26px;
+    width: 40px;
+    height: 40px;
+    margin-right: 4%;
+    line-height: 40px;
+}
+}
+
+
+@media screen and (max-width:640px){
+.main2-bg {
+    width: 100%;
+    height: 450px;
+}
+.main1-bg .inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main1-bg .inner .text-left {
+    width: 45%;
+    float: left;
+}
+.main1-bg .inner .text-right {
+    width: 45%;
+    float: right;
+}
+.main1-bg .inner h1 {
+    font-size: 46px;
+    line-height: 100px;
+    padding-top: 30px;}
+
+/*about的内容2*/
+.main2-bg .text2-left {
+    width: 50%;
+    float: left;
+}
+.main2-bg .text2-left h2 {
+    font-size: 25px;
+}	
+.main2-bg .pic2-right {
+    width: 49%;
+    float: left;
+    margin-top: 48px;
+    margin-left: 5px;
+}
+.main2-bg .pic2-right img {
+    width: 100%;
+}
+
+.main2-bg .pic2-right .title3 {
+    width: 100%;
+    height: 100%;
+}
+
+.main2-bg .pic2-right .title1 h3 {
+    padding-top: 5px;
+}
+
+/*about的内容3*/
+.main3-bg .pic3-left {
+    width: 50%;
+    float: left;
+    margin-top: 48px;
+    position: relative;
+}
+.main3-bg .pic3-left img{
+    width: 100%;
+}
+.main3-bg .pic3-left .title3 {
+    width: 100%;
+    height: 100%;
+}
+.main3-bg .pic3-left .title3 h3 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+.main3-bg .text3-right {
+    width: 45%;
+    float: right;
+}
+.main3-bg .text3-right h2 {
+    font-size: 20px;
+}
+
+
+.main2-bg .pic2-right img { width:100%;}
+.main2-bg .pic2-right .title1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Services1-bg {
+    width: 100%;
+    height: 865px;
+}
+.Services1-bg .Services1-pic ul li {
+    width: 17%;
+	
+	height: 26%;
+padding-bottom: 30px;
+padding-left: 2%;
+display: block;}
+
+
+.Services1-bg .Services1-pic ul li {
+    width: 34%;
+    height: 27%;
+    padding: 0 5%;
+	padding-bottom: 30px;
+	}
+.Services1-bg .Services1-pic ul li .text-box h3 {
+    font-size: 17px;
+    line-height: 25px;
+    padding-left: 21px;}
+
+.Services1-bg .Services1-pic .h2wenzi {
+    font-size: 40px;
+    line-height: 100px;
+    padding-top: 30px;
+}
+
+
+/*Portfolio*/
+
+.Portfolio1-bg {
+    height: 540px;
+}
+.Portfolio1-bg .inner h1 {
+    font-size: 40px;
+    color: #fff;
+    line-height: 100px;
+    padding-top: 30px;}
+.Portfolio1-bg .inner ul li {
+    width: 30%;}
+
+.Portfolio2-bg .inner ul li .box-inner {
+    height: 140px;
+}
+.inner ul li .box-inner .port-pic .kuai {
+    width: 100%;
+    height: 205px;
+    display: none;
+    padding-top: 40px;
+    position: relative;
+    transition: all 2s;
+}
+.inner ul li .box-inner .port-pic .kuai time {
+    font-size: 14px;
+    line-height: 28px;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+	animation: donghuatime 1s;
+}
+@keyframes donghuatime {
+ 0% {
+top:-20%;
+}
+ 100% {
+top:5%;
+}
+}
+
+
+
+.Portfolio2-bg {
+    width: 100%;
+    height: 655px;
+}
+.Portfolio2-bg .inner h1 {
+    font-size: 40px;
+    color: #fff;
+    line-height: 100px;
+    padding-top: 30px;}
+.Portfolio2-bg .inner ul li .box-inner .port-pic .kuai p {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    animation: donghuap 2s;
+    width: 100%;
+    color: #FFF;
+}
+@keyframes donghuap {
+ 0% {
+left:-50%;
+}
+ 100% {
+left:50%;
+}
+}
+
+.Portfolio2-bg .inner ul li .box-inner .port-pic .kuai .but-box span {
+    font-size: 14px;
+    line-height: 20px;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: donghuaspan 2.5s;
+    width: 70%;
+}
+
+@keyframes donghuaspan {
+ 0% {
+bottom:-20%;
+} 
+100% {
+bottom:50%;
+}
+
+}
+.Contact2-bg .inner .form1 li {
+    float: left;
+    width: 28%;
+    margin-right: 40px;
+    display: block;
+}
+
+.Contact3-bg .inner ul li h2 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 80px;}
+	
+.Contact3-bg .inner ul li .fa-icon i {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    margin-right: 4%;
+    line-height: 25px;
+}
+
+.Contact3-bg .inner ul li p {
+    font-size: 14px;
+    line-height: 18px;}
+
+
+}
+
+
+
+
+@media screen and (max-width:480px){
+header nav ul { display:none;}
+header nav .yidiongsj img{display: block;}
+
+
+
+
+
+.main1-bg .inner .text-left {
+    width: 100%;
+    float: left;
+}
+
+.main1-bg .inner .text-right {
+    width: 100%;
+    float: right;
+}
+
+.main2-bg {
+    width: 100%;
+    height: 750px;
+}
+.main2-bg .text2-left {
+    width: 98%;
+    float: left;
+}
+
+.main2-bg .pic2-right {
+    width: 98%;
+    float: left;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.main3-bg {
+    width: 100%;
+    height: 720px;
+}
+.main3-bg .text3-right {
+    width: 98%;
+    float: right;
+}
+.main3-bg .pic3-left {
+    width: 98%;
+    margin-top: 48px;
+}
+
+
+
+.Services1-bg {
+    width: 100%;
+    height: 800px;
+}
+.Services1-bg .Services1-pic ul {
+    width: 95%;
+    margin: 0 auto;
+}
+	
+
+.Services1-bg .Services1-pic ul li {
+    width: 34%;
+}
+
+.Services1-bg .Services1-pic .pic-box .box-in .box-text h3 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+
+
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 h3{
+font-size: 20px;
+padding-top: 40px;
+	}
+	
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 h3 {
+    font-size: 20px;
+    padding-top: 25px;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 h3 {
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.Services1-bg .Services1-pic .pic-box .box-in .box-text p {
+    font-size: 12px;}
+
+
+.Portfolio1-bg .inner ul li {
+    width: 43%;
+}
+
+.Portfolio1-bg .inner ul li .addleft{margin-left: 30px;}
+.Portfolio1-bg .inner ul li .nomargin{margin-bottom: 30px;}
+
+.Portfolio1-bg {
+    height: 700px;
+}
+.Portfolio2-bg {
+    width: 100%;
+    height: 1030px;
+}
+
+
+
+.Services1-bg .Services1-pic ul li .text-box h3 {
+    font-size: 13px;
+    line-height: 25px;
+    padding-left: 22px;
+}
+
+.Contact2-bg .inner .form1 li {
+    float: left;
+    width: 27%;
+    margin-right: 40px;
+    display: block;
+}
+.Contact2-bg .inner .form1 li h3 {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 40px;
+    color: #fff;
+}
+
+.Contact3-bg {
+    width: 100%;
+    height: 555px;
+}
+.Contact3-bg .inner ul li {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Contact3-bg .inner ul li h2 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 80px;
+}
+
+.Contact3-bg .inner ul li .fa-icon {
+    width: 38%;
+    margin: 0 auto;
+}
+
+
+.Portfolio2-bg .inner ul li {
+    float: left;
+    width: 46%;
+    margin-right: 4%;
+    margin-bottom: 12%;
+}
+
+.Portfolio2-bg .inner ul li .box-inner {
+    height: 210px;
+}
+
+.inner ul li .box-inner .port-pic .kuai time {
+    font-size: 18px;
+    line-height: 28px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: donghuatime 1s;
+}
+@keyframes donghuatime {
+ 0% {
+top:-20%;
+}
+ 100% {
+top:10%;
+}
+}
+
+.Portfolio2-bg .inner ul li .box-inner .port-pic .kuai p {
+    font-size: 14px;
+    line-height: 20px;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: donghuap 2s;
+    width: 90%;
+}
+
+.Portfolio2-bg .inner ul li .box-inner .port-pic .kuai .but-box span {
+    font-size: 18px;
+    line-height: 28px;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: donghuaspan 2.5s;
+    width: 60%;
+}
+@keyframes donghuaspan {
+ 0% {
+bottom:-20%;
+} 
+100% {
+bottom:30%;
+}
+
+}
+
+}

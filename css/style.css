@@ -1,0 +1,988 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*vegetable farm*/
+header {
+	background-color: rgba(102,204,51,0.5);
+	position: fixed;
+	z-index: 999;
+	width: 100%
+}
+header .logo {
+	float: left;
+}
+header .logo h1 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 51px;
+	text-transform: capitalize;
+}
+header nav {
+	float: right;
+	text-align: center;
+}
+
+
+
+header nav ul li {
+	float: left;
+	line-height: 51px;
+	padding: 0 15px;
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	transition: all 0.6s;
+}
+header nav ul li a {
+	color: #fff;
+transition: all 0.6s;
+width: 50px;
+height: 51px;
+display: block;
+
+}
+header nav ul li:hover {
+	background-color: #e7e7e7;
+}
+header nav ul li:hover a {
+	color: #060;
+}
+
+header nav .yidiongsj img{padding-top: 15px;
+padding-right: 15px; display:none;}
+
+/*广告图*/
+/*.banner img{ width:100%;height:100%; text-align:center; background-size:100% 100%; display:inline-block;}*/
+.banner {
+	width: 100%;
+	height: 851px;
+	background:url(../images/banner2.jpg) no-repeat center;
+	background-size: 100% 100%;
+}
+
+/*About Us*/
+.main1-bg {
+	width: 100%;
+	height: 522px;
+}
+.main1-bg .main1-pic {
+	background: url(../images/fog.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/*内容1*/
+.main1-bg .inner {
+	width: 750px;
+	margin: 0 auto;
+}
+.main1-bg .inner h1 {
+	font-size: 46px;
+	color: #fff;
+	line-height: 151px;
+	padding-top: 48px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.main1-bg .inner .text-left {
+	width: 359px;
+	float: left;
+}
+.main1-bg .inner p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 31px;
+}
+.main1-bg .inner .text-right {
+	width: 359px;
+	float: right;
+}
+/*内容2*/
+.main2-bg {
+	width: 100%;
+	height: 460px;
+}
+.main2-bg .main2-pic {
+	background: url(../images/leaf.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/*左侧的内容*/
+.main2-bg .text2-left h2 {
+	font-size: 40px;
+	color: #718e04;
+	padding-top: 50px;
+	text-transform: capitalize;
+	font-weight: 100;
+	display: block;
+	position: relative;
+}
+.main2-bg .text2-left h2:after {
+	content: '';
+	width: 200px;
+	height: 2px;
+	background-color: #9ca970;
+	left: 0px;
+	top: 115%;
+	position: absolute;
+}
+.main2-bg .text2-left {
+	width: 450px;
+	float: left;
+}
+.main2-bg p {
+	font-size: 18px;
+	color: #718e04;
+	line-height: 31px;
+	padding-top: 48px;
+}
+/*右侧的图片及文字*/
+.main2-bg .pic2-right {
+	width: 460px;
+	float: right;
+	margin-top: 48px;
+	position: relative;
+}
+.main2-bg .pic2-right .title1 h3 {
+	font-size: 20px;
+	color: #fff;
+	padding-left: 20px;
+	padding-top: 20px;
+	display: block;
+}
+.main2-bg .pic2-right .title1 p {
+	font-size: 14px;
+	color: #718e04;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+.main2-bg .pic2-right .title1 {
+	width: 460px;
+	height: 355px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.1);
+	display: none;
+}
+.main2-bg .pic2-right img {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.main2-bg .pic2-right:hover img {
+	transform: scale(0.5);
+
+}
+.main2-bg .pic2-right:hover .title1 {
+	display: block;
+	animation: donghua1 0.5s normal;
+	-moz-animation: donghua1 0.5s normal;
+	-ms-animation: donghua1 0.5s normal;
+	-o-animation: donghua1 0.5s normal;
+	-webkit-animation: donghua1 0.5s normal;
+}
+@keyframes donghua1 {
+ 0% {
+transform: scale(0.5)
+}
+ 100% {
+transform: scale(1)
+}
+}
+/*内容3*/
+.main3-bg {
+	width: 100%;
+	height: 460px;
+}
+.main3-bg .main3-pic {
+	background: url(../images/rain.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/*左侧的内容*/
+.main3-bg .text3-right {
+	width: 450px;
+	float: right;
+}
+.main3-bg .text3-right h2 {
+	font-size: 40px;
+	color: #fff;
+	padding-top: 50px;
+	text-transform: capitalize;
+	font-weight: 100;
+	display: block;
+	position: relative;
+}
+.main3-bg .text3-right h2:after {
+	content: '';
+	width: 200px;
+	height: 2px;
+	background-color: #fff;
+	left: 0px;
+	top: 115%;
+	position: absolute;
+}
+.main3-bg p {
+	font-size: 18px;
+	color: #fff;
+	line-height: 31px;
+	padding-top: 48px;
+}
+/*右侧的图片及文字*/
+.main3-bg .pic3-left {
+	width: 460px;
+	float: left;
+	margin-top: 48px;
+	position: relative;
+}
+.main3-bg .pic3-left .title3 h3 {
+	font-size: 20px;
+	color: #fff;
+	padding-left: 20px;
+	padding-top: 20px;
+	display: block;
+}
+.main3-bg .pic3-left .title3 p {
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+}
+.main3-bg .pic3-left .title3 {
+	width: 460px;
+	height: 355px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.1);
+	display: none;
+}
+.main3-bg .pic3-left img {
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.main3-bg .pic3-left:hover img {
+	transform: scale(0.5);
+}
+.main3-bg .pic3-left:hover .title3 {
+	display: block;
+	animation: donghua1 0.5s normal;
+	-moz-animation: donghua1 0.5s normal;
+	-ms-animation: donghua1 0.5s normal;
+	-o-animation: donghua1 0.5s normal;
+	-webkit-animation: donghua1 0.5s normal;
+}
+@keyframes donghua1 {
+ 0% {
+transform: scale(0.5)
+}
+ 100% {
+transform: scale(1)
+}
+}
+
+
+/*Services*/
+.Services1-bg {
+	width: 100%;
+	height: 656px;
+}
+.Services1-bg .Services1-pic {
+	background: url(../images/blur.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.Services1-bg .Services1-pic .h2wenzi {
+	font-size: 46px;
+	color: #fff;
+	line-height: 151px;
+	padding-top: 48px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.Services1-bg .Services1-pic ul {
+	width: 1140px;
+	margin: 0 auto;
+}
+.Services1-bg .Services1-pic ul li {
+	float: left;
+	width: 210px;
+	height: 100px;
+	padding: 0 22px;
+	text-align: center;
+	margin: 0 10px;
+}
+.Services1-bg .Services1-pic ul li .text-box h3 {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 66px;
+	padding-left: 23px;
+	color: #FFF;
+}
+.Services1-bg .Services1-pic ul li .text-box p {
+	font-size: 14px;
+	padding-top: 8px;
+	line-height: 24px;
+	padding-left: 22px;
+	text-align: center;
+	color: #FFF;
+}
+/*Services列表中的图1*/
+.Services1-bg .Services1-pic .pic-box {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid rgba(255,255,255,0.5);
+	background: url(../images/service1.jpg) no-repeat -20px -20px;
+	transition: all 0.5s;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box .box-in {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(../images/bg.jpg) no-repeat 0px 0px;
+}
+.Services1-bg .Services1-pic .pic-box .box-in .box-text {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(0,102,153,0.8);
+	position: absolute;
+	display: none;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box .box-in .box-text h3 {
+	font-size: 20px;
+	padding-top: 38px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box .box-in .box-text h3:after {
+	content: '';
+	width: 60%;
+	height: 1px;
+	background-color: #FFF;
+	left: 20%;
+	top: 105%;
+	position: absolute;
+}
+.main2-bg .text2-left {
+	width: 450px;
+	float: left;
+}
+.Services1-bg .Services1-pic .pic-box .box-in .box-text p {
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	padding-top: 5px;
+}
+.Services1-bg .Services1-pic .pic-box .box-in img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box:hover img {
+	transform: scale(0) rotate(360deg);
+	box-shadow: 0 0 250px #FFF;
+}
+/*.Services1-bg .Services1-pic .pic-box:hover .box-text{ display:block; transform:scale(1);}*/
+
+.Services1-bg .Services1-pic .pic-box:hover .box-text {
+	display: block;
+	animation: donghua2 1s normal;
+}
+ @keyframes donghua2 {
+ 0% {
+transform: scale(1.2)
+}
+ 100% {
+transform: scale(1)
+}
+}
+/*Services列表中的图2*/
+.Services1-bg .Services1-pic .pic-box2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid rgba(255,255,255,0.5);
+	background: url(../images/service2.jpg) no-repeat -20px -20px;
+	transition: all 0.5s;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(../images/bg.jpg) no-repeat 0px 0px;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(0,102,153,0.8);
+	position: absolute;
+	display: none;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 h3 {
+	font-size: 20px;
+	padding-top: 38px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 h3:after {
+	content: '';
+	width: 60%;
+	height: 1px;
+	background-color: #FFF;
+	left: 20%;
+	top: 105%;
+	position: absolute;
+}
+.main2-bg .text2-left {
+	width: 450px;
+	float: left;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 .box-text2 p {
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	padding: 0 10px;
+	padding-top: 5px;
+}
+.Services1-bg .Services1-pic .pic-box2 .box-in2 img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box2:hover img {
+	transform: scale(0) rotate(360deg);
+	box-shadow: 0 0 250px #FFF;
+}
+/*.Services1-bg .Services1-pic .pic-box:hover .box-text{ display:block; transform:scale(1);}*/
+
+.Services1-bg .Services1-pic .pic-box2:hover .box-text2 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+ @keyframes donghua2 {
+ 0% {
+transform: scale(1.2)
+}
+ 100% {
+transform: scale(1)
+}
+}
+/*Services列表中的图3*/
+.Services1-bg .Services1-pic .pic-box3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid rgba(255,255,255,0.5);
+	background: url(../images/service3.jpg) no-repeat -20px -20px;
+	transition: all 0.5s;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(../images/bg.jpg) no-repeat 0px 0px;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(0,102,153,0.8);
+	position: absolute;
+	display: none;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 h3 {
+	font-size: 20px;
+	padding-top: 38px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 h3:after {
+	content: '';
+	width: 60%;
+	height: 1px;
+	background-color: #FFF;
+	left: 20%;
+	top: 105%;
+	position: absolute;
+}
+.main2-bg .text2-left {
+	width: 450px;
+	float: left;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 .box-text3 p {
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	padding-top: 5px;
+}
+.Services1-bg .Services1-pic .pic-box3 .box-in3 img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box3:hover img {
+	transform: scale(0) rotate(360deg);
+	box-shadow: 0 0 250px #FFF;
+}
+/*.Services1-bg .Services1-pic .pic-box:hover .box-text{ display:block; transform:scale(1);}*/
+
+.Services1-bg .Services1-pic .pic-box3:hover .box-text3 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+ @keyframes donghua2 {
+ 0% {
+transform: scale(1.2)
+}
+ 100% {
+transform: scale(1)
+}
+}
+/*Services列表中的图4*/
+.Services1-bg .Services1-pic .pic-box4 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid rgba(255,255,255,0.5);
+	background: url(../images/service4.jpg) no-repeat -20px -20px;
+	transition: all 0.5s;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(../images/bg.jpg) no-repeat 0px 0px;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: rgba(0,102,153,0.8);
+	position: absolute;
+	display: none;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 h3 {
+	font-size: 20px;
+	padding-top: 38px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	position: relative;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 h3:after {
+	content: '';
+	width: 60%;
+	height: 1px;
+	background-color: #FFF;
+	left: 20%;
+	top: 105%;
+	position: absolute;
+}
+.main2-bg .text2-left {
+	width: 450px;
+	float: left;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 .box-text4 p {
+	font-size: 14px;
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+	padding-top: 5px;
+}
+.Services1-bg .Services1-pic .pic-box4 .box-in4 img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: all 1s;
+}
+.Services1-bg .Services1-pic .pic-box4:hover img {
+	transform: scale(0) rotate(360deg);
+	box-shadow: 0 0 250px #FFF;
+}
+/*.Services1-bg .Services1-pic .pic-box:hover .box-text{ display:block; transform:scale(1);}*/
+
+.Services1-bg .Services1-pic .pic-box4:hover .box-text4 {
+	display: block;
+	animation: donghua2 1s normal;
+}
+ @keyframes donghua2 {
+ 0% {
+transform: scale(1.2)
+}
+ 100% {
+transform: scale(1)
+}
+}
+
+
+/*Postfolio*/
+/*内容1*/
+.Portfolio1-bg {
+	width: 100%;
+	height: 877px;
+}
+.Portfolio1-bg .Portfolio1-pic {
+	background: url(../images/sky.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.Portfolio1-bg .inner h1 {
+	font-size: 46px;
+	color: #fff;
+	line-height: 151px;
+	padding-top: 48px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.Portfolio1-bg .inner ul {
+	width: 100%;
+	margin: 0 auto;
+}
+.Portfolio1-bg .inner ul li {
+	float: left;
+	width: 31%;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.Portfolio1-bg .inner ul .nomargin{ margin:0;}
+.Portfolio1-bg .inner ul li img {
+	width: 100%;
+	display: block;
+	transition:all 1s;
+}
+.Portfolio1-bg .inner ul li:hover img {
+	transform:scale(1.1);
+	box-shadow:0 0 20px #000;
+}
+/*内容2*/
+.Portfolio2-bg {
+	width: 100%;
+	height: 774px;
+}
+.Portfolio2-bg .Portfolio2-pic {
+	background: url(../images/blur.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.Portfolio2-bg .inner {
+	width: 1140px;
+	margin: 0 auto;
+}
+.Portfolio2-bg .inner h1 {
+	font-size: 46px;
+	color: #fff;
+	line-height: 151px;
+	padding-top: 48px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.Portfolio2-bg .inner ul {
+	width: 100%;
+	margin: 0 auto;
+}
+.Portfolio2-bg .inner ul li {
+	float: left;
+	width: 21%;
+	margin-right: 40px;}
+
+.Portfolio2-bg .inner ul li .box-inner {
+	height: 239px;
+	float: left;
+	width: 100%;
+	border: 2px solid #fff;
+	overflow: hidden;
+	position: relative;
+	background-color: #FFF;
+}
+.inner ul li .box-inner  .port-pic{ width:100%; height:245px; display:block; position:absolute;}
+.inner ul li .box-inner .port-pic img {
+	width: 100%;
+	position:absolute;
+	transition: all 0.5s;
+}
+.inner ul li .box-inner .port-pic:hover img{ transform:scale(0) rotate(360deg);}
+
+.inner ul li .box-inner .port-pic .kuai {
+	width: 100%;
+	height: 205px;
+	display: none;
+	padding-top: 40px;
+	position: relative;
+	transition:all 2s;
+}
+.inner ul li .box-inner .port-pic:hover .kuai {
+	display: block;
+animation:donghuakuai 10s none;
+}
+
+
+@keyframes donghuakuai{
+	0%{background-color: rgba(0,102,0,0);}
+	100%{background-color: rgba(0,102,0,1);}
+	}
+
+.inner ul li .box-inner .port-pic .kuai time {
+	width: 100%;
+	font-size: 18px;
+	line-height: 28px;
+	background-color: #000;
+	text-align: center;
+	display: inline-block;
+	top: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: donghuatime 1s;
+	position: absolute;
+	color:#fff;
+}
+@keyframes donghuatime {
+ 0% {
+top:-50%;
+}
+ 100% {
+top:15%;
+}
+}
+.inner ul li .box-inner .port-pic .kuai p {
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+top: 26%;
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+animation: donghuap 2s;
+width: 80%;
+color:#FFF;
+}
+@keyframes donghuap {
+ 0% {
+left:-50%;
+}
+ 100% {
+left:50%;
+}
+}
+.inner ul li .box-inner .port-pic .kuai .but-box {
+	text-align: center;
+	padding-top: 15px;
+}
+.inner ul li .box-inner .port-pic .kuai .but-box span {
+	font-size:16px;
+	display: inline-block;
+	background-color: #000;
+	line-height: 35px;
+	color: #fff;
+	bottom: 25%;
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+animation: donghuaspan 2.5s;
+width: 50%;
+}
+.box-inner .port-pic .kuai .but-box span:hover {
+	text-shadow:2px 2px 2px #FF0;
+	color:#0CF;
+}
+
+@keyframes donghuaspan {
+ 0% {
+bottom:-50%;
+} 
+100% {
+bottom:25%;
+}
+}
+
+
+.Portfolio2-bg .inner ul li .port-text{ width:100%; height:100%;}
+.Portfolio2-bg .inner ul li .port-text time{ font-size:14px; color:#FFF; line-height:40px; padding-bottom:12px;}
+.Portfolio2-bg .inner ul li .port-text h2{ font-weight:normal;color:#FFF; line-height:24px; padding-bottom:20px; transition:all 0.5s; }
+.Portfolio2-bg .inner ul li .port-text h2:hover{ transform:translateX(15px); color:#090;}
+
+.Portfolio2-bg .inner ul li .port-text p{font-size:14px; color:#FFF; line-height:24px;}
+
+
+
+/*Contact*/
+/*内容1*/
+.Contact1-bg {
+	width: 100%;
+	height: 650px;
+}
+.Contact1-bg .Contact1-pic {
+	background:url(../images/grass.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	text-align: center;
+}
+.Contact1-bg .inner h1 {
+	font-size: 46px;
+	color: #fff;
+	line-height: 151px;
+	padding-top: 48px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+
+.Contact1-bg .Contact1-pic .Contact1-box{ width:355px; height:250px; background-color:#FFF;display: inline-block;text-align: left; padding-left:10px; transition:all 2s;}
+.Contact1-bg .Contact1-pic .Contact1-box:hover { box-shadow:10px 10px 5px #000; transform:scale(1.2);}
+.Contact1-box h3{ line-height:63px; font-size:20px; font-weight:400;}
+.Contact1-box h4{ line-height:45px; font-size:14px;}
+.Contact1-box p{ line-height:24px; font-size:14px; margin-top:8px;}
+ 
+/*内容2*/
+.Contact2-bg {
+	width: 100%;
+	height: 800px;
+}
+.Contact2-bg .Contact2-pic {
+	background:url(../images/green.jpg) no-repeat center;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+.Contact2-bg .inner h1 {
+	font-size: 46px;
+	color: #fff;
+	line-height: 129px;
+	padding-top: 59px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.Contact2-bg .inner p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 16px;
+	padding-bottom:31px;
+	text-align: center;
+}
+
+.Contact2-bg .inner .form1{ height:100px; padding-bottom: 20px;}
+.Contact2-bg .inner .form1 li{ float:left; width:30%; margin-right:40px; display: block;}
+.Contact2-bg .inner .form1 li h3{ font-size:20px; font-weight:200; line-height:49px; color:#fff;}
+.Contact2-bg .inner .form1 li form input{ width:100%; height:50px; border-radius:10px; background-color: rgba(255,255,255,0.5); color:#333; padding-left:10px; font-size:18px;}
+.Contact2-bg .inner .form1 li form input:hover{ box-shadow:0 0 10px #09F; border:1px solid #09F;}
+
+
+.Contact2-bg .inner .form2 form textarea{ width:99%; height:214px; border-radius:10px; background-color: rgba(255,255,255,0.5); display:inline-block;}
+
+.Contact2-bg .inner .form2 form textarea:hover{ box-shadow:0 0 10px #09F; border:1px solid #09F;}
+.Contact2-bg .inner .form2 h3{ font-size:20px; font-weight:200; line-height:49px; color:#fff;}
+.Contact2-bg .inner .form3 input{ width:86px; height:47px; border-radius:10px; background: none; border:2px solid #fff; margin-top:30px; color:#fff; transition:all 1s;}
+
+.Contact2-bg .inner .form3:hover input{ background-color:#FFF; color:#000;}
+
+
+/*内容3*/
+.Contact3-bg {
+	width: 100%;
+	height: 228px;
+	background-color:#475025;
+}
+.Contact3-bg .inner ul li{
+	width:33%;
+	float:left;
+	text-align: center;
+}
+.Contact3-bg .inner ul li h2 {
+	font-size: 22px;
+	color: #fff;
+	line-height:98px;
+	padding-top: 15px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 100;
+}
+.Contact3-bg .inner ul li p {
+	font-size: 14px;
+	line-height:20px;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+}
+.Contact3-bg .inner ul li .fa-icon{ width:83%;margin: 0 auto;}
+.Contact3-bg .inner ul li .fa-icon i {
+	float: left;
+	font-size: 26px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: block;
+	margin-right: 13px;
+	text-align: center;
+	line-height:50px;
+	color: #fff;
+	transition:all 0.5s;
+}
+.Contact3-bg .inner ul li .fa-icon i:hover {
+	transform:scale(1.2);
+	text-shadow:0 0 20px #000;
+	background-color:#fff;
+	color:#000;
+}
+
+/*版权*/
+footer{ width:100%; background-color:#353a22; height:90px; text-align:center;}
+footer .inner{ width:100%; height:90px; text-align:center; position:relative;}
+footer  p{ vertical-align:middle; padding-top:40px; font-size:12px; color:#FFF;}
+footer i{font-size:35px; position:absolute; left:50%; top:50%; height:24px; overflow:hidden;transform: rotate(0deg) translateX(-50%);color:#FFF; transition:all 1s; }
+footer i a{color:#FFF;}
+footer i:hover a{ color:#F00;}
